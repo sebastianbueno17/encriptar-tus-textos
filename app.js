@@ -34,7 +34,7 @@ function desencriptar (){
     .replace (/imes/gi, "i")
     .replace (/ai/gi, "a")
     .replace (/ober/gi, "o")
-    .replace (/ufat/gi, "ufat"); 
+    .replace (/ufat/gi, "u"); 
    if (document.getElementById ("texto") .value.length != 0) {
       document.getElementById ("texto") .value = textocifrado ;
       document.getElementById("titulo-mensaje").textContent = "texto desencriptado con exito ";
