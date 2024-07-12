@@ -239,3 +239,19 @@
 .mensaje {
    visibility: hidden ;
 }
+
+.logo {
+    display: flex;
+     position: relative;
+    left: 35%;
+    color: #000000;
+    background-color:#4649DB;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 28%;
+    border-radius: 16.5px;
+    justify-content: center;
+}
